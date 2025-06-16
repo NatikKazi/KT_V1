@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mrs. Sharma",
+    "role": "Parent of 8th Grade Student",
+    "photo": "https://via.placeholder.com/50",
+    "type": "parent",
+    "rating": 5,
+    "comment": "My daughter's performance improved dramatically after joining KAZI TUTORIALS. The teachers give personal attention to each student."
+  },
+  {
+    "name": "Rahul Verma",
+    "role": "12th Commerce (2024)",
+    "photo": "https://via.placeholder.com/50",
+    "type": "student",
+    "rating": 5,
+    "comment": "The commerce faculty explains complex accounting concepts so clearly. I scored 95 in Accounts in my 12th boards!"
+  },
+  {
+    "name": "Mr. Patel",
+    "role": "Parent of 5th Grade Student",
+    "photo": "https://via.placeholder.com/50",
+    "type": "parent",
+    "rating": 4.5,
+    "comment": "The small batch size makes all the difference. My son gets individual attention that he wasn't getting in school."
+  }
+]

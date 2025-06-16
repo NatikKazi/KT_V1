@@ -1,0 +1,75 @@
+/* ========== KAZI TUTORIALS THEME COLORS ========== */
+:root {
+  --violet: #8A2BE2;
+  --mango-yellow: #FFD700;
+  --dark-text: #212529;
+  --light-bg: #f8f9fa;
+}
+
+/* Bootstrap Utility Overrides */
+.bg-violet {
+  background-color: var(--violet) !important;
+}
+
+.bg-mango {
+  background-color: var(--mango-yellow) !important;
+}
+
+.text-violet {
+  color: var(--violet) !important;
+}
+
+.text-mango {
+  color: var(--mango-yellow) !important;
+}
+
+/* ========== CUSTOM CLASSES ========== */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Rounded icon backgrounds for features */
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Common box styling */
+.card.shadow-sm {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card.shadow-sm:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials */
+.testimonial-card {
+  border-left: 4px solid var(--violet);
+}
+
+/* Navbar brand adjustments */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Footer links hover effect */
+footer a {
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--mango-yellow) !important;
+  transform: translateY(-2px);
+}
+
+
